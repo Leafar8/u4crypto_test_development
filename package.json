@@ -1,0 +1,40 @@
+{
+  "name": "u4crypto_test_dev",
+  "version": "1.0.0",
+  "description": "REST API utilizando um dominio de uma companhia de proteção veicular",
+  "main": "src/infra/http/server.ts",
+  "author": "Rafael Franklin Coelho <rafaelfranklinbarbosa2013@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/infra/http/server.ts",
+    "develop": "tsnd --transpile-only --respawn --ignore-watch node_modules src/infra/http/server.ts",
+    "test": "jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.1",
+    "@hapi/hapi": "^20.2.0",
+    "pg": "^8.4.0",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^3.0.2",
+    "ts-node": "3.3.0",
+    "typeorm": "^0.2.30",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.4",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^8.10.66",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node-dev": "^1.1.1"
+  },
+  "repository": {
+    "url": "git+https://github.com/Leafar8/u4crypto_test_development.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leafar8/u4crypto_test_development/issues"
+  },
+  "homepage": "https://github.com/Leafar8/u4crypto_test_development#readme"
+}
