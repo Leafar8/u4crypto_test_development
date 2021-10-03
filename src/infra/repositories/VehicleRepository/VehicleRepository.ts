@@ -1,5 +1,5 @@
 import { getRepository } from 'typeorm';
-import { Vehicle } from '../../../domain/Entities/Vehicle';
+import { Vehicle } from '../../../domain/entities/Vehicle';
 import { IVehicleRepository } from './IVehicleRepository';
 
 export class VehicleRepository implements IVehicleRepository {

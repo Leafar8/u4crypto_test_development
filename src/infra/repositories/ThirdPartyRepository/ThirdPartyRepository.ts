@@ -1,5 +1,5 @@
 import { getRepository } from 'typeorm';
-import { ThirdParty } from '../../../domain/Entities/ThirdParty';
+import { ThirdParty } from '../../../domain/entities/ThirdParty';
 import { IThirdPartyRepository } from './IThirdPartyRepository';
 
 export class ThirdPartyRepository implements IThirdPartyRepository {

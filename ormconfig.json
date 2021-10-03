@@ -1,0 +1,25 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "1234",
+    "database": "server_test_u4c",
+    "synchronize": true,
+    "logging": false,
+    "keepConnectionAlive": true,
+    "entities": [
+       "src/domain/entities/**/*.ts"
+    ],
+    "migrations": [
+       "src/infra/database/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/infra/database/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/domain/entities",
+       "migrationsDir": "src/infra/database/migration",
+       "subscribersDir": "src/infra/database/subscriber"
+    }
+ }

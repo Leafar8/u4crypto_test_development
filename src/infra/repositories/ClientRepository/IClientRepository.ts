@@ -1,5 +1,5 @@
-import { Accident } from '../../../domain/Entities/Accident';
-import { Client } from '../../../domain/Entities/Client';
+import { Accident } from '../../../domain/entities/Accident';
+import { Client } from '../../../domain/entities/Client';
 
 export interface IClientRepository {
   save(client: Client): Promise<Client>;

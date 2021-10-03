@@ -1,6 +1,6 @@
 import { getRepository } from 'typeorm';
-import { Accident } from '../../../domain/Entities/Accident';
-import { Client } from '../../../domain/Entities/Client';
+import { Accident } from '../../../domain/entities/Accident';
+import { Client } from '../../../domain/entities/Client';
 import { IClientRepository } from './IClientRepository';
 
 export class ClientRepository implements IClientRepository {

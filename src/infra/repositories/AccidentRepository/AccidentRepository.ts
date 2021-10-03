@@ -1,8 +1,8 @@
 import { getRepository } from 'typeorm';
-import { Accident } from '../../../domain/Entities/Accident';
-import { Client } from '../../../domain/Entities/Client';
-import { ThirdParty } from '../../../domain/Entities/ThirdParty';
-import { Vehicle } from '../../../domain/Entities/Vehicle';
+import { Accident } from '../../../domain/entities/Accident';
+import { Client } from '../../../domain/entities/Client';
+import { ThirdParty } from '../../../domain/entities/ThirdParty';
+import { Vehicle } from '../../../domain/entities/Vehicle';
 import { IAccidentRepository } from './IAccidentRepository';
 
 export class AccidentRepository implements IAccidentRepository {

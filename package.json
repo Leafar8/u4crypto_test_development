@@ -1,7 +1,7 @@
 {
   "name": "u4crypto_test_dev",
   "version": "1.0.0",
-  "description": "REST API utilizando um dominio de uma companhia de proteção veicular",
+  "description": "API REST para fins de utilização em um dominio de uma companhia de proteção veicular",
   "main": "src/infra/http/server.ts",
   "author": "Rafael Franklin Coelho <rafaelfranklinbarbosa2013@gmail.com>",
   "license": "MIT",

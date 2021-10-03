@@ -1,4 +1,4 @@
-import { server } from '../../../infra/http/server';
+import { server } from '../../../infra/requests/server';
 
 describe('Create client use case test', () => {
   beforeAll((done) => {

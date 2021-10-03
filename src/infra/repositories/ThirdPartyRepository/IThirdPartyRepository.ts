@@ -1,4 +1,4 @@
-import { ThirdParty } from '../../../domain/Entities/ThirdParty';
+import { ThirdParty } from '../../../domain/entities/ThirdParty';
 
 export interface IThirdPartyRepository {
   save(thirdParty: ThirdParty): Promise<ThirdParty>;
